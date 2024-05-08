@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://rahulfaujdar.github.io/sitemap.xml
+Host: https://rahulfaujdar.github.io
