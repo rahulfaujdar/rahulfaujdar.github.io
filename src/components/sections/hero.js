@@ -51,6 +51,14 @@ const Hero = () => {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
+    (async () => {
+
+      await fetch('https://mt479ebsi7.execute-api.ap-south-1.amazonaws.com/portfolio/notification', { method: 'POST' });
+
+    })();
+  }, []);
+
+  useEffect(() => {
     if (prefersReducedMotion) {
       return;
     }
