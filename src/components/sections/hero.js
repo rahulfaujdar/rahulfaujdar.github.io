@@ -53,7 +53,7 @@ const Hero = () => {
   useEffect(() => {
     (async () => {
 
-      await fetch('https://mt479ebsi7.execute-api.ap-south-1.amazonaws.com/portfolio/notification', { method: 'POST' });
+      await fetch('https://wxiwzge1m9.execute-api.ap-south-1.amazonaws.com/portfolio/notification', { method: 'POST' });
 
     })();
   }, []);
